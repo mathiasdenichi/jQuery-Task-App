@@ -1,0 +1,79 @@
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0084+0,ff0084+100;Pink+Flat */
+background: #ff0084; /* Old browsers */
+background: -moz-linear-gradient(top, #ff0084 0%, #ff0084 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ff0084 0%,#ff0084 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ff0084 0%,#ff0084 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0084', endColorstr='#ff0084',GradientType=0 ); /* IE6-9 */
+}
+
+.header-background {
+    background-color: #333;
+}
+
+h1 {color: #ffffff;}
+input {border-radius: 3px; margin: 10px auto; border: none;}
+
+.input-large {
+    height: 100px;
+    width: 95%;
+    position: absolute;
+    top: 200px;
+    font-size: 36px;
+    text-transform: uppercase;
+    z-index: 99999;
+}
+
+li {
+    list-style: none;
+    height: 100px;
+    background: white;
+    font-size: 36px;
+    margin: 10px 0;
+    
+}
+.check-box {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background: grey;
+    margin-right: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+li:hover {
+    background-color: greenyellow;
+    transition: ease-in-out .5s;
+}
+
+.text {
+        position: relative;
+        top: 20px;
+}
+
+.itemsCheck {
+    color: #999;
+    text-decoration: line-through;
+}
+
+.check {
+    background-color: greenyellow;
+    transition: ease-in-out .5s;
+    }
+.delete {
+    float: right;
+}
+
+.completed {
+    background-color: greenyellow!important;
+    transition: ease-in-out .5s;
+    position: absolute;
+    top: 20px;
+    padding: 50px;
+    z-index: 9999;
+}
+
+.no-display {
+    display: none;
+}
